@@ -34,6 +34,11 @@ export const Home = (): JSX.Element => {
         <div className="home-hero">
           <h1 className="home-hero-txt">Smart Fitness</h1>
         </div>
+        <div className="ctn-home-tagline">
+          <p className="home-tagline-txt">
+            Upgrade to intelligent fitness with our selection of smartwatches
+          </p>
+        </div>
         <div className="sale-products-block">
           <Product product={saleProductsArr[0]} />
           <Product product={saleProductsArr[1]} />

@@ -30,6 +30,14 @@ MAIN_CONTENT===============
   display: flex;
 }
 
+.home-tagline-txt {
+  color: rgba(120, 140, 255, 0.96);
+  font-size: 3rem;
+  font-weight: 600;
+  padding-left: 20px;
+  text-align: center;
+}
+
 /*
 =========PRODUCT===============
 */
@@ -43,6 +51,11 @@ MAIN_CONTENT===============
   color: rgba(248, 248, 248, 0.96);
   padding-left: 20px;
   font-size: 2rem;
+  transition: transform 400ms;
+}
+
+.ctn-product:hover {
+  transform: scale(1.05);
 }
 
 .product-model {
