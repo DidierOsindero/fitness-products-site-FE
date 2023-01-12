@@ -2,6 +2,7 @@
 body {
   margin: 0;
   font-family: Quicksand;
+  background-color: whitesmoke;
 }
 /*
 HEADER===============
@@ -56,6 +57,7 @@ MAIN_CONTENT===============
 
 .ctn-product:hover {
   transform: scale(1.05);
+  filter: brightness(80%);
 }
 
 .product-model {
