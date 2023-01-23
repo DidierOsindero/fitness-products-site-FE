@@ -11,7 +11,7 @@ export const MainContent = (): JSX.Element => {
       const response = await axios.get(
         "https://fitness-products-site-be.onrender.com/brands/name"
       );
-      setBrandNames(response.data)
+      setBrandNames(response.data);
     } catch (error) {
       window.alert("Failed to fetch brand names");
       console.error(error);
