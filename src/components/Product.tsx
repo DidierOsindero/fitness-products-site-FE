@@ -1,15 +1,16 @@
 import { IFitnessProduct } from "../interfaces";
+import { productImgDb } from "../utils/productImgDb";
 
 interface IProductProps {
   product: IFitnessProduct;
 }
+
 export const Product = ({ product }: IProductProps): JSX.Element => {
+  const randomIMG =
+    productImgDb[Math.floor(Math.random() * productImgDb.length)];
   return (
     <div className="ctn-product">
-      <img
-        className="product-img"
-        src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
-      />
+      <img className="product-img" src={randomIMG} />
       <div className="ctn-product-description">
         <p className="product-model">{product.model_name}</p>
         <p className="product-brand">{product.brand_name}</p>
