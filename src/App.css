@@ -119,6 +119,7 @@ MAIN_CONTENT===============
   border: 1px solid rgb(188, 188, 188);
   border-radius: 5px;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .product-buy-btn:hover {
