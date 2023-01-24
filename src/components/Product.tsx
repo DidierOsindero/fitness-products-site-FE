@@ -13,9 +13,9 @@ export const Product = ({ product }: IProductProps): JSX.Element => {
       <div className="ctn-product-description">
         <p className="product-model">{product.model_name}</p>
         <p className="product-brand">{product.brand_name}</p>
-        <p className="product-selling-price">{product.selling_price}</p>
+        <p className="product-selling-price">${product.selling_price}</p>
       </div>
-      <button>Buy</button>
+      <button className="product-buy-btn">Buy</button>
     </div>
   );
 };
