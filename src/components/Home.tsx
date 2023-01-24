@@ -2,6 +2,7 @@ import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import { baseURL } from "../App";
 import { IFitnessProduct } from "../interfaces";
+import { FeaturedProduct } from "./FeaturedProduct";
 import { Product } from "./Product";
 
 export const Home = (): JSX.Element => {
@@ -40,9 +41,10 @@ export const Home = (): JSX.Element => {
           </p>
         </div>
         <div className="sale-products-block">
-          <Product product={saleProductsArr[0]} />
-          <Product product={saleProductsArr[1]} />
+          <FeaturedProduct product={saleProductsArr[0]} />
+          <FeaturedProduct product={saleProductsArr[1]} />
         </div>
+        <Product product={saleProductsArr[6]} />
       </div>
     );
   }
