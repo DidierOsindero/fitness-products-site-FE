@@ -132,3 +132,10 @@ MAIN_CONTENT===============
 /*
 FOOTER===============
 */
+
+.BrandsViewContainer {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+}
