@@ -1,3 +1,4 @@
+import { Home } from "./Home";
 import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import { IBrandNames } from "../utils/interfaces";
@@ -24,6 +25,7 @@ export const MainContent = (): JSX.Element => {
 
   return (
     <div className="mainContentWrapper">
+      <Home />
       <p>Main Content</p>
       <BrandsView brandNames={brandNames} />
     </div>
