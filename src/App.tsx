@@ -2,6 +2,7 @@ import "./App.css";
 import { Header } from "./components/Header";
 import { MainContent } from "./components/MainContent";
 import { Footer } from "./components/Footer";
+
 export const baseURL =
   process.env.NODE_ENV === "production"
     ? "INSERT RENDER HERE"
@@ -10,9 +11,9 @@ export const baseURL =
 function App(): JSX.Element {
   return (
     <div className="app">
-      <Header />
-      <MainContent />
-      <Footer />
+        <Header />
+        <MainContent />
+        <Footer />
     </div>
   );
 }
