@@ -4,7 +4,6 @@ import { useCallback, useEffect, useState } from "react";
 import { IBrandNames } from "../utils/interfaces";
 import { BrandsView } from "./BrandsView";
 
-
 export const MainContent = (): JSX.Element => {
   const [brandNames, setBrandNames] = useState<IBrandNames[]>([]);
 
