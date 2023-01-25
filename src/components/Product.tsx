@@ -10,7 +10,7 @@ export const Product = ({ product }: IProductProps): JSX.Element => {
     productImgDb[Math.floor(Math.random() * productImgDb.length)];
   return (
     <div className="ctn-product">
-      <img className="product-img" src={randomIMG} />
+      <img className="product-img" src={randomIMG} alt="smart watch" />
       <div className="ctn-product-description">
         <p className="product-model">{product.model_name}</p>
         <p className="product-brand">{product.brand_name}</p>

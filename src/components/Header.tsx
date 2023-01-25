@@ -6,8 +6,6 @@ export const Header = (): JSX.Element => {
       <nav>
         <NavLink to="/">Home</NavLink>
         <NavLink to="brandnames">Brands</NavLink>
-        <a>Products</a>
-        <a>Sale</a>
       </nav>
     </div>
   );

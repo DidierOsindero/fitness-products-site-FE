@@ -11,9 +11,9 @@ export const baseURL =
 function App(): JSX.Element {
   return (
     <div className="app">
-        <Header />
-        <MainContent />
-        <Footer />
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
