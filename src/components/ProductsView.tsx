@@ -10,25 +10,24 @@ export const ProductsView = (): JSX.Element => {
     []
   );
 
-  const { INSERT_BRAND_NAME_HERE } = useParams();
-
-  const getAllBrandProducts = async () => {
-    const { data } = await axios.get(
-      baseURL + "/brand" + "products" + INSERT_BRAND_NAME_HERE
-    );
-    setAllBrandProducts(data);
-  };
+  const { brand_name } = useParams();
 
   useEffect(() => {
+    const getAllBrandProducts = async () => {
+      const { data } = await axios.get(
+        `${baseURL}/brand/products/${brand_name}`
+      );
+      setAllBrandProducts(data);
+    };
     getAllBrandProducts();
-  }, []);
+  }, [brand_name]);
 
   return (
     <div className="ctn-products-view">
-      <h1>Products</h1>
-      <div className="ctn-products-view">
+      <h1>Products - {brand_name}</h1>
+      <div className="ctn-products">
         {allBrandProducts.map((product) => {
-          <Product product={product} />;
+          return <Product product={product} key={product.id} />;
         })}
       </div>
     </div>

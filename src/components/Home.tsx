@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import { baseURL } from "../App";
-import { IFitnessProduct } from "../interfaces";
+import { IFitnessProduct } from "../utils/interfaces";
 import { FeaturedProduct } from "./FeaturedProduct";
 import { Product } from "./Product";
 
