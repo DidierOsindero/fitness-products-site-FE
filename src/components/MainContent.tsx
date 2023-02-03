@@ -4,6 +4,7 @@ import { useCallback, useEffect, useState } from "react";
 import { IBrandNames } from "../utils/interfaces";
 import { BrandsView } from "./BrandsView";
 import { Routes, Route } from "react-router-dom";
+import { ProductsView } from "./ProductsView";
 
 export const MainContent = (): JSX.Element => {
   const [brandNames, setBrandNames] = useState<IBrandNames[]>([]);
@@ -32,6 +33,7 @@ export const MainContent = (): JSX.Element => {
           path="/brandnames"
           element={<BrandsView brandNames={brandNames} />}
         />
+        <Route path="/brands/:brand_name/products" element={<ProductsView />} />
       </Routes>
     </div>
   );

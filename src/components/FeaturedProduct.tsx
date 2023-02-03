@@ -1,5 +1,4 @@
-import { IFitnessProduct } from "../interfaces";
-
+import { IFitnessProduct } from "../utils/interfaces";
 interface IFeaturedProductProps {
   product: IFitnessProduct;
 }

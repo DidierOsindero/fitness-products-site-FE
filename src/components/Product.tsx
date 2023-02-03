@@ -1,4 +1,4 @@
-import { IFitnessProduct } from "../interfaces";
+import { IFitnessProduct } from "../utils/interfaces";
 import { productImgDb } from "../utils/productImgDb";
 
 interface IProductProps {
