@@ -1,10 +1,11 @@
+import { NavLink } from "react-router-dom";
+
 export const Header = (): JSX.Element => {
   return (
     <div className="headerWrapper">
       <nav>
-        <a>Brands</a>
-        <a>Products</a>
-        <a>Sale</a>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="brandnames">Brands</NavLink>
       </nav>
     </div>
   );

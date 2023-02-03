@@ -3,6 +3,7 @@ import axios from "axios";
 import { useCallback, useEffect, useState } from "react";
 import { IBrandNames } from "../utils/interfaces";
 import { BrandsView } from "./BrandsView";
+import { Routes, Route } from "react-router-dom";
 
 export const MainContent = (): JSX.Element => {
   const [brandNames, setBrandNames] = useState<IBrandNames[]>([]);
@@ -25,9 +26,13 @@ export const MainContent = (): JSX.Element => {
 
   return (
     <div className="mainContentWrapper">
-      <Home />
-      <p>Main Content</p>
-      <BrandsView brandNames={brandNames} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route
+          path="/brandnames"
+          element={<BrandsView brandNames={brandNames} />}
+        />
+      </Routes>
     </div>
   );
 };
