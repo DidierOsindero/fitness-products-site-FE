@@ -15,6 +15,7 @@ MAIN_CONTENT===============
 /*
 =========HOME===============
 */
+
 .home-hero {
   height: 600px;
   background-image: url(https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
@@ -146,4 +147,33 @@ FOOTER===============
   display: grid;
   grid-template-columns: auto auto auto;
   justify-items: center;
+}
+/*
+NAVBAR======================
+*/
+.nav-bar {
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.035);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  padding: 1.15rem 1rem 1.15rem 1rem;
+}
+
+.navLink {
+  text-decoration: none;
+  font-family: inherit;
+  margin: 1rem;
+}
+
+.navLink:visited {
+  color: black;
+}
+
+.navLink:hover {
+  color: blue;
+}
+
+.active {
+  text-decoration: none;
+  border-bottom: 1px solid blue;
+  color: blue;
 }
