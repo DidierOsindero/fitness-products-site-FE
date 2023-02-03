@@ -11,6 +11,7 @@ export const FeaturedProduct = ({
       <img
         className="featured-product-img"
         src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c21hcnQlMjB3YXRjaHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+        alt="featured smart watch"
       />
       <div className="ctn-product-description">
         <p className="featured-product-model">{product.model_name}</p>
