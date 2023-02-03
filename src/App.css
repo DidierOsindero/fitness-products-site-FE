@@ -81,8 +81,9 @@ MAIN_CONTENT===============
 
 .ctn-product {
   margin: 20px auto;
-  width: 20rem;
+  width: 25rem;
   color: rgba(132, 132, 132, 0.96);
+  background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.204);
   border-radius: 20px;
   font-size: 2rem;
@@ -128,6 +129,13 @@ MAIN_CONTENT===============
 
 .product-buy-btn:active {
   border-color: rgb(89, 88, 88);
+}
+/*
+=========ProductsView===============
+*/
+.ctn-products {
+  display: flex;
+  flex-wrap: wrap;
 }
 /*
 FOOTER===============
