@@ -88,7 +88,8 @@ export const brandImages = [
   },
   {
     name: "lcare",
-    image_url: "https://5.imimg.com/data5/WI/LD/MY-2/lcare_logo-500x500.jpg",
+    image_url:
+      "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0011/2385/brand.gif?itok=-F6BawPf",
   },
   {
     name: "samsung",
@@ -108,7 +109,7 @@ export const brandImages = [
   {
     name: "infinix",
     image_url:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEUAAAD///+VlZX7+/tgYGAEBATq6uo3NzddXV1LS0tISEhUVFSRkZEICAjFxcWvr6/Z2dm3t7cRERHu7u7n5+cUFBSDg4NsbGycnJzf398ZGRl6enqJiYksLCz29vYdHR2mpqY/Pz/Jycl1dXW8vLzR0dEvLy9nZ2c6OjoiIiL/wTHnAAAEw0lEQVR4nO2afVuqPByAQRqayqnEFMtMq1P5/b/gszdgyDQH1fF6rvv+wwvG9ttuBtsAowgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/mdks0wxE3rvwdk+D6HLP/xM46pKWhtnlBEq93L7khryR5U6VltpOgmoeqIKpPkuoL3BOIJBJz+azOOahUqbmO1RQJgrU+Q6oEgwIVpuqVEc+wyTEMMqyrhTI85lmOd5mm9Czrxkr2V69uEvGX6aSq7CSm3j2HVcq7RRaCQRfZgi59+6XRgmXQw3pmmrO83bh0rbventkJtqbIoMwyoPpI/h359p0jfjGgo77hwdfqoDxnDZzCmcAfloJCHcAr5Uf63dhkRFow9NLNGuTxy0I7GDimi0tC3YnoPagjaTOFLg+Mk6k25XaXIwQhxUH7qMONGF3i4PomE4KgaSdfT8OGiyNsdnRWF2TaGbqd6bFnq4fyoGcr8ww8akmE7lXrQ/jLRwZ5OhTir2svFrE7l4b7VQhlGhtrNugk3DQm+nj3GbZJuphm88h+J4qqXM9ocTKf7wZN5sq+6wh9Xwe20jb4YHt+eLLfbYUbBpOPC23zJ/Ug3xHmrP+NOTkZ6tRT3ji+gpNzNsQzGK/thpd9n5RjzbMIlXmazlJsQw8WWWrHQeZ02jBrdhavY27kL8RcZQUV5PD7eBhsfaFRcyy/N3GMYDU7lrKBXtYj6vV3F/bP7XLyaUMMPE1zCdlD9H9X3h4t6Hjau0HclETx+ahoZdakrMd3bKcgS74+3DdD2+rhkv/9qaljLPu0z5NIUey1zvxwzj+cIf6aptKI0+y17cRVYw6S3ovQ/n94e53syBbTkKbhyZEp/hKmtHSqpePzAU6knHKqo5xxHsfIkeMdSNbMS8N0o3ZXpZyM3kM2w/F9lIhcdQ/cgRVcfevFe3wzL08fxrw7zVheUdcVPu+hZCvpHGU+GtPjJoGxr2UlFFzx3BfngM555s3Qxjz7k/bShUg9zxqcc0ccKwtT4Sv2WoRtBq3aQqWUSe54DehqknZFfDNl9cpSq1XhpOe5iVXKBhNCkv00F3r5pLNKxWhreeMS+YCzR0lr6rHmYll2eoBPWEkcjfefYTY+k/NBRKUOuVU8bqoc9sf3mGugd18MUuMaqr536Cl2ZYCq7rSeNWPXl/76rtXxkKO8gk5Ut0e6He7ntdqBdk2OhBxTI2wqteij7D1iPPLxlqQXnzbc1LWxG92i5d9fmIWhmqJxRr6Ml2xPCrp6cT61IRNd9ERdGdHT9v9K4uaXpRKnZ9lVgbjnTIrw1F09DF//TUUjSGhT5SfyEVpWBSn0armFjFrvPi0O0Oa+g5YWdcpSPXcFBepa1mrdpX6XU1yFQ9aJBSZS/Onzq/856rL/H6C6mI1vqz+q3H8E4fKcpdXShvvsW4Nh/1zat+HSn1PmnqSFNzlepc6q1MVGxkdrlTvUYwhvJezHV6/tLNTzITWZbdm8Flpv8b0RYUJtesOvLgy3cv6kT9Lw3hWzjPMlH/Y0Pn0kWeZjOhKvEVUJmyfbgaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPw8/wFrVjpIbjeyfAAAAABJRU5ErkJggg==",
+      "https://s3-eu-west-1.amazonaws.com/tpd/logos/5f63a9fb9653480001abe812/0x0.png",
   },
   {
     name: "fasttrack",
