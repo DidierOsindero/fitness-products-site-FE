@@ -177,3 +177,12 @@ NAVBAR======================
   border-bottom: 1px solid blue;
   color: blue;
 }
+/*
+BRAND IMAGES ================
+*/
+
+.singleBrandview,
+img {
+  width: 30vw;
+  height: 35vh;
+}
